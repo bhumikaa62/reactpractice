@@ -43,13 +43,14 @@ It helps me understand how frontend and backend work together.
 
 ## ▶️ How to Run This Project
 1. Clone the repository  
-   git clone https://github.com/bhumika62/reactpractice.git
+   git clone 
+   https://github.com/bhumikaa62/reactpractice
 
 
-2. Install dependencies  
+3. Install dependencies  
    npm install
 
-3. Start the project  
+4. Start the project  
    npm start
 
 ---
