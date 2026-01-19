@@ -1,0 +1,132 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* Body Styling */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+/* Navbar Styling */
+.navbar {
+  background-color: #007bff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+
+.nav-item a:hover,
+.nav-item a.active {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  min-width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+}
+
+.dropdown-menu a {
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown when open */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+/* Main Content */
+.container {
+  padding: 20px;
+}
+
+.job-listing, .company-card, .employer-card {
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing h2, .company-card h3, .employer-card h4 {
+  margin-bottom: 10px;
+}
+
+.apply-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  
+}
